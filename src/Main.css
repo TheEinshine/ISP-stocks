@@ -1,0 +1,76 @@
+/* Style for the list */
+
+body{
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ef0000;
+    color: #000000fd;
+    font-size: large;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Style for the form */
+  form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ef0000;
+    color: #000000fd;
+    font-size: large;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
